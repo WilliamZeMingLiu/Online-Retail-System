@@ -1,0 +1,1050 @@
+
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.EmptyDatabase:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.EmptyDatabase
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.EmptyDatabase
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/EmptyDatabase/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/EmptyDatabase/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/EmptyDatabase/output.txt
+[       OK ] AmazonReviews.EmptyDatabase (573 ms)
+[----------] 1 test from AmazonReviews (573 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (573 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.DatabaseReadback:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.DatabaseReadback
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.DatabaseReadback
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/DatabaseReadback/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/DatabaseReadback/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/DatabaseReadback/output.txt
+[       OK ] AmazonReviews.DatabaseReadback (709 ms)
+[----------] 1 test from AmazonReviews (709 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (709 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.AverageRating_OneReview:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.AverageRating_OneReview
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.AverageRating_OneReview
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AverageRating_OneReview/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AverageRating_OneReview/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AverageRating_OneReview/output.txt
+[       OK ] AmazonReviews.AverageRating_OneReview (732 ms)
+[----------] 1 test from AmazonReviews (732 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (732 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.AverageRating_ThreeReviews:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.AverageRating_ThreeReviews
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.AverageRating_ThreeReviews
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AverageRating_ThreeReviews/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AverageRating_ThreeReviews/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AverageRating_ThreeReviews/output.txt
+[       OK ] AmazonReviews.AverageRating_ThreeReviews (736 ms)
+[----------] 1 test from AmazonReviews (736 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (736 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.FloatingPointAverage:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.FloatingPointAverage
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.FloatingPointAverage
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/FloatingPointAverage/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/FloatingPointAverage/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/FloatingPointAverage/output.txt
+[       OK ] AmazonReviews.FloatingPointAverage (725 ms)
+[----------] 1 test from AmazonReviews (725 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (725 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.NoReviews:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.NoReviews
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.NoReviews
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/NoReviews/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/NoReviews/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/NoReviews/output.txt
+[       OK ] AmazonReviews.NoReviews (713 ms)
+[----------] 1 test from AmazonReviews (713 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (714 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.ProductNameCaseInsensitive:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.ProductNameCaseInsensitive
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.ProductNameCaseInsensitive
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ProductNameCaseInsensitive/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ProductNameCaseInsensitive/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ProductNameCaseInsensitive/output.txt
+[       OK ] AmazonReviews.ProductNameCaseInsensitive (733 ms)
+[----------] 1 test from AmazonReviews (733 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (733 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.AvgRating_MultipleProducts:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.AvgRating_MultipleProducts
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.AvgRating_MultipleProducts
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AvgRating_MultipleProducts/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AvgRating_MultipleProducts/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AvgRating_MultipleProducts/output.txt
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:71: Failure
+Value of: solutionConsole.CompareHit(studentConsole)
+  Actual: false (Mismatch between search result hits on query 1 of 1: Expected:
+[{name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}],
+ actual:
+[{name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+[  FAILED  ] AmazonReviews.AvgRating_MultipleProducts (772 ms)
+[----------] 1 test from AmazonReviews (772 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (772 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AmazonReviews.AvgRating_MultipleProducts
+
+ 1 FAILED TEST
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.BlankText:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.BlankText
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.BlankText
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BlankText/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BlankText/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BlankText/output.txt
+[       OK ] AmazonReviews.BlankText (740 ms)
+[----------] 1 test from AmazonReviews (741 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (741 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.ViewOneReview:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.ViewOneReview
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.ViewOneReview
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewOneReview/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewOneReview/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewOneReview/output.txt
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:71: Failure
+Value of: solutionConsole.CompareHit(studentConsole)
+  Actual: false (Mismatch between search result hits on query 1 of 1: Expected:
+[{name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}],
+ actual:
+[{name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3
+}, {name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+[  FAILED  ] AmazonReviews.ViewOneReview (772 ms)
+[----------] 1 test from AmazonReviews (772 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (772 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AmazonReviews.ViewOneReview
+
+ 1 FAILED TEST
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.ViewRev_SortedByYear:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.ViewRev_SortedByYear
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.ViewRev_SortedByYear
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByYear/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByYear/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByYear/output.txt
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:71: Failure
+Value of: solutionConsole.CompareHit(studentConsole)
+  Actual: false (Mismatch between search result hits on query 1 of 1: Expected:
+[{name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 4
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}],
+ actual:
+[{name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 4
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:73: Failure
+Value of: solutionConsole.CompareReviews(studentConsole)
+  Actual: false (Mismatch between review data on review query 1 of 1: Expected:
+[{rating: 4,
+ username: talksalot,
+ date: 2019-04-08,
+ review text: I was worried that it might be a little too difficult, but honestly it isn't that bad. I loved the parts about static programming and selfless algorithms, as well as the antidisestablishmentarian pedagogy about decentralizing compiler vendors.
+}, {rating: 4,
+ username: fjones,
+ date: 2016-04-08,
+ review text: 
+}, {rating: 3,
+ username: jdoe,
+ date: 2000-01-02,
+ review text: Too abstract.
+}, {rating: 5,
+ username: jdoe,
+ date: 1970-01-01,
+ review text: The beginning of an era
+}],
+ actual:
+[{rating: 5,
+ username: jdoe,
+ date: 2016-02-27,
+ review text: Why did the police show up at the end?
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+[  FAILED  ] AmazonReviews.ViewRev_SortedByYear (775 ms)
+[----------] 1 test from AmazonReviews (775 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (775 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AmazonReviews.ViewRev_SortedByYear
+
+ 1 FAILED TEST
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.ViewRev_SortedByMonth:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.ViewRev_SortedByMonth
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.ViewRev_SortedByMonth
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByMonth/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByMonth/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByMonth/output.txt
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:71: Failure
+Value of: solutionConsole.CompareHit(studentConsole)
+  Actual: false (Mismatch between search result hits on query 1 of 1: Expected:
+[{name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 4
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}],
+ actual:
+[{name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 4
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:73: Failure
+Value of: solutionConsole.CompareReviews(studentConsole)
+  Actual: false (Mismatch between review data on review query 1 of 1: Expected:
+[{rating: 4,
+ username: talksalot,
+ date: 2000-11-08,
+ review text: I was worried that it might be a little too difficult, but honestly it isn't that bad. I loved the parts about static programming and selfless algorithms, as well as the antidisestablishmentarian pedagogy about decentralizing compiler vendors.
+}, {rating: 4,
+ username: fjones,
+ date: 2000-10-20,
+ review text: 
+}, {rating: 3,
+ username: jdoe,
+ date: 2000-05-05,
+ review text: Too abstract.
+}, {rating: 5,
+ username: jdoe,
+ date: 2000-01-31,
+ review text: The beginning of an era
+}],
+ actual:
+[{rating: 5,
+ username: jdoe,
+ date: 2016-02-27,
+ review text: Why did the police show up at the end?
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+[  FAILED  ] AmazonReviews.ViewRev_SortedByMonth (785 ms)
+[----------] 1 test from AmazonReviews (785 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (785 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AmazonReviews.ViewRev_SortedByMonth
+
+ 1 FAILED TEST
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.ViewRev_SortedByDay:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.ViewRev_SortedByDay
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.ViewRev_SortedByDay
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByDay/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByDay/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByDay/output.txt
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:71: Failure
+Value of: solutionConsole.CompareHit(studentConsole)
+  Actual: false (Mismatch between search result hits on query 1 of 1: Expected:
+[{name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 4
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}],
+ actual:
+[{name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 4
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:73: Failure
+Value of: solutionConsole.CompareReviews(studentConsole)
+  Actual: false (Mismatch between review data on review query 1 of 1: Expected:
+[{rating: 4,
+ username: talksalot,
+ date: 2000-11-25,
+ review text: I was worried that it might be a little too difficult, but honestly it isn't that bad. I loved the parts about static programming and selfless algorithms, as well as the antidisestablishmentarian pedagogy about decentralizing compiler vendors.
+}, {rating: 4,
+ username: fjones,
+ date: 2000-11-22,
+ review text: 
+}, {rating: 3,
+ username: jdoe,
+ date: 2000-11-05,
+ review text: Too abstract.
+}, {rating: 5,
+ username: jdoe,
+ date: 2000-11-01,
+ review text: The beginning of an era
+}],
+ actual:
+[{rating: 5,
+ username: jdoe,
+ date: 2016-02-27,
+ review text: Why did the police show up at the end?
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+[  FAILED  ] AmazonReviews.ViewRev_SortedByDay (786 ms)
+[----------] 1 test from AmazonReviews (786 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (786 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AmazonReviews.ViewRev_SortedByDay
+
+ 1 FAILED TEST
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.AddReview:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.AddReview
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.AddReview
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddReview/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddReview/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddReview/output.txt
+[       OK ] AmazonReviews.AddReview (788 ms)
+[----------] 1 test from AmazonReviews (788 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (788 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.AddBlankReview:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.AddBlankReview
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.AddBlankReview
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddBlankReview/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddBlankReview/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddBlankReview/output.txt
+[       OK ] AmazonReviews.AddBlankReview (768 ms)
+[----------] 1 test from AmazonReviews (768 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (768 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.AddRevValidDates:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.AddRevValidDates
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.AddRevValidDates
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddRevValidDates/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddRevValidDates/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddRevValidDates/output.txt
+[       OK ] AmazonReviews.AddRevValidDates (766 ms)
+[----------] 1 test from AmazonReviews (766 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (766 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviews.AddRevInvalidDates:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.AddRevInvalidDates
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.AddRevInvalidDates
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddRevInvalidDates/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddRevInvalidDates/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddRevInvalidDates/output.txt
+[       OK ] AmazonReviews.AddRevInvalidDates (756 ms)
+[----------] 1 test from AmazonReviews (756 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (756 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonLogin.LoginOnly:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonLogin.LoginOnly
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonLogin
+[ RUN      ] AmazonLogin.LoginOnly
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/LoginOnly/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/LoginOnly/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/LoginOnly/output.txt
+[       OK ] AmazonLogin.LoginOnly (712 ms)
+[----------] 1 test from AmazonLogin (712 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (712 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonLogin.LoginLogout:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonLogin.LoginLogout
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonLogin
+[ RUN      ] AmazonLogin.LoginLogout
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/LoginLogout/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/LoginLogout/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/LoginLogout/output.txt
+[       OK ] AmazonLogin.LoginLogout (700 ms)
+[----------] 1 test from AmazonLogin (700 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (700 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonLogin.InvalidUsername:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonLogin.InvalidUsername
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonLogin
+[ RUN      ] AmazonLogin.InvalidUsername
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/InvalidUsername/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/InvalidUsername/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/InvalidUsername/output.txt
+[       OK ] AmazonLogin.InvalidUsername (707 ms)
+[----------] 1 test from AmazonLogin (707 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (707 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonLogin.BuyWithoutLogin:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonLogin.BuyWithoutLogin
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonLogin
+[ RUN      ] AmazonLogin.BuyWithoutLogin
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyWithoutLogin/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyWithoutLogin/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyWithoutLogin/output.txt
+[       OK ] AmazonLogin.BuyWithoutLogin (769 ms)
+[----------] 1 test from AmazonLogin (769 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (769 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonLogin.BuyItem:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonLogin.BuyItem
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonLogin
+[ RUN      ] AmazonLogin.BuyItem
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyItem/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyItem/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyItem/output.txt
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyItem/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyItem/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyItem/output.txt
+[       OK ] AmazonLogin.BuyItem (1554 ms)
+[----------] 1 test from AmazonLogin (1554 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1554 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonLogin.SwitchAccountBuyItem:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonLogin.SwitchAccountBuyItem
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonLogin
+[ RUN      ] AmazonLogin.SwitchAccountBuyItem
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountBuyItem/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountBuyItem/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountBuyItem/output.txt
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountBuyItem/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountBuyItem/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountBuyItem/output.txt
+[       OK ] AmazonLogin.SwitchAccountBuyItem (1535 ms)
+[----------] 1 test from AmazonLogin (1535 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1535 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonLogin.SwitchAccountWithoutLogout:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonLogin.SwitchAccountWithoutLogout
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonLogin
+[ RUN      ] AmazonLogin.SwitchAccountWithoutLogout
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountWithoutLogout/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountWithoutLogout/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountWithoutLogout/output.txt
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountWithoutLogout/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountWithoutLogout/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountWithoutLogout/output.txt
+[       OK ] AmazonLogin.SwitchAccountWithoutLogout (1525 ms)
+[----------] 1 test from AmazonLogin (1525 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1526 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonSorting.ByRating:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonSorting.ByRating
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonSorting
+[ RUN      ] AmazonSorting.ByRating
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByRating/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByRating/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByRating/output.txt
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:71: Failure
+Value of: solutionConsole.CompareHit(studentConsole)
+  Actual: false (Mismatch between search result hits on query 1 of 1: Expected:
+[{name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}],
+ actual:
+[{name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+[  FAILED  ] AmazonSorting.ByRating (775 ms)
+[----------] 1 test from AmazonSorting (775 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (775 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AmazonSorting.ByRating
+
+ 1 FAILED TEST
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonSorting.ByRating_NoReviews:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonSorting.ByRating_NoReviews
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonSorting
+[ RUN      ] AmazonSorting.ByRating_NoReviews
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByRating_NoReviews/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByRating_NoReviews/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByRating_NoReviews/output.txt
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:71: Failure
+Value of: solutionConsole.CompareHit(studentConsole)
+  Actual: false (Mismatch between search result hits on query 1 of 1: Expected:
+[{name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}, {name: Ear and Nose Muffs,
+ info: Size: Large-Head Brand: Crew Cut,
+ stock: 100,
+ price: 18,
+ rating: 0
+}],
+ actual:
+[{name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}, {name: Ear and Nose Muffs,
+ info: Size: Large-Head Brand: Crew Cut,
+ stock: 100,
+ price: 18,
+ rating: 0
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+[  FAILED  ] AmazonSorting.ByRating_NoReviews (801 ms)
+[----------] 1 test from AmazonSorting (801 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (801 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AmazonSorting.ByRating_NoReviews
+
+ 1 FAILED TEST
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonSorting.ByName:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonSorting.ByName
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonSorting
+[ RUN      ] AmazonSorting.ByName
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByName/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByName/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByName/output.txt
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:71: Failure
+Value of: solutionConsole.CompareHit(studentConsole)
+  Actual: false (Mismatch between search result hits on query 1 of 1: Expected:
+[{name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}, {name: Ear and Nose Muffs,
+ info: Size: Large-Head Brand: Crew Cut,
+ stock: 100,
+ price: 18,
+ rating: 0
+}, {name: Graveyard of the Pacific,
+ info: Author: Anthony Dalton ISBN: 978-192661331-4,
+ stock: 7,
+ price: 9.95,
+ rating: 0
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: Planet Earth VHS,
+ info: Genre: Documentary Rating: PG,
+ stock: 4,
+ price: 20.25,
+ rating: 0
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: foo,
+ info: Genre: Programming Rating: TV-14,
+ stock: 4,
+ price: 20.25,
+ rating: 0
+}],
+ actual:
+[{name: Planet Earth VHS,
+ info: Genre: Documentary Rating: PG,
+ stock: 4,
+ price: 20.25,
+ rating: 0
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: foo,
+ info: Genre: Programming Rating: TV-14,
+ stock: 4,
+ price: 20.25,
+ rating: 0
+}, {name: Graveyard of the Pacific,
+ info: Author: Anthony Dalton ISBN: 978-192661331-4,
+ stock: 7,
+ price: 9.95,
+ rating: 0
+}, {name: Ear and Nose Muffs,
+ info: Size: Large-Head Brand: Crew Cut,
+ stock: 100,
+ price: 18,
+ rating: 0
+}, {name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}, {name: Graveyard of the Pacific,
+ info: Author: Anthony Dalton ISBN: 978-192661331-4,
+ stock: 7,
+ price: 9.95,
+ rating: 0
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+[  FAILED  ] AmazonSorting.ByName (789 ms)
+[----------] 1 test from AmazonSorting (789 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (789 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AmazonSorting.ByName
+
+ 1 FAILED TEST
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviewStress.Leave10000Reviews:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviewStress.Leave10000Reviews
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviewStress
+[ RUN      ] AmazonReviewStress.Leave10000Reviews
+This test is executing your program with the following command line: 
+/home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/Leave10000Reviews/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/Leave10000Reviews/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/Leave10000Reviews/output.txt
+[       OK ] AmazonReviewStress.Leave10000Reviews (154 ms)
+[----------] 1 test from AmazonReviewStress (154 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (154 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST AmazonReviewStress.View10000Reviews:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviewStress.View10000Reviews
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviewStress
+[ RUN      ] AmazonReviewStress.View10000Reviews
+This test is executing your program with the following command line: 
+/home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/View10000Reviews/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/View10000Reviews/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/View10000Reviews/output.txt
+[       OK ] AmazonReviewStress.View10000Reviews (305 ms)
+[----------] 1 test from AmazonReviewStress (305 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (305 ms total)
+[  PASSED  ] 1 test.

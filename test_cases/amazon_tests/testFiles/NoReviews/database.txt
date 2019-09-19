@@ -1,0 +1,14 @@
+<products>
+clothing
+Red Headband
+15.50
+25
+Medium
+U-Blox
+</products>
+<users>
+jdoe 100.0 0
+fjones 100.0 0
+</users>
+<reviews>
+</reviews>

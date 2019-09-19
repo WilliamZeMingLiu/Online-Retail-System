@@ -1,0 +1,17 @@
+<products>
+book
+Data Abstraction
+79.99
+19
+978-013292372-9
+Carrano
+</products>
+<users>
+fhqwhgads 100 0
+jdoe 20.01 0
+thatguy 5 0
+</users>
+<reviews>
+Data Abstraction
+3 jdoe 1999-09-09 Too abstract.
+</reviews>

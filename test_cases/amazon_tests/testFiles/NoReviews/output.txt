@@ -1,0 +1,26 @@
+Read 1 products
+Read 0 reviews
+Read 2 users
+=====================================
+Menu: 
+  LOGIN username                     
+  LOGOUT                             
+  AND r/n term term ...              
+  OR r/n term term ...               
+  ADD search_hit_number              
+  VIEWCART                           
+  BUYCART                            
+  ADDREV search_hit_number rating date review_text
+  VIEWREV search_hit_number           
+  QUIT new_db_filename               
+=====================================
+
+Enter command: 
+Hit   1
+Red Headband
+Size: Medium Brand: U-Blox
+15.5 25 left.
+Rating: 0
+
+
+Enter command: 

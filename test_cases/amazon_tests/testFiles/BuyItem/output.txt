@@ -1,0 +1,32 @@
+Read 1 products
+Read 1 reviews
+Read 3 users
+=====================================
+Menu: 
+  LOGIN username                     
+  LOGOUT                             
+  AND r/n term term ...              
+  OR r/n term term ...               
+  ADD search_hit_number              
+  VIEWCART                           
+  BUYCART                            
+  ADDREV search_hit_number rating date review_text
+  VIEWREV search_hit_number           
+  QUIT new_db_filename               
+=====================================
+
+Enter command: 
+Hit   1
+Data Abstraction
+Author: Carrano ISBN: 978-013292372-9
+79.99 20 left.
+Rating: 3
+
+
+Enter command: 
+
+Enter command: 
+
+Enter command: 
+
+Enter command: 

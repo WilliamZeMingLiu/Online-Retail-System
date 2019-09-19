@@ -1,0 +1,4 @@
+[PASS] [VPASS] ComparatorsTest.StandardLexicographic (0.534)
+[PASS] [VPASS] ComparatorsTest.DescendingLexicographic (0.528)
+[PASS] [VPASS] ComparatorsTest.CaseInsensitiveLexicographic (0.526)
+[PASS] [VPASS] ComparatorsTest.IgnoreLeadingWhitespace (0.533)

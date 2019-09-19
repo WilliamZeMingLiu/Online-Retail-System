@@ -1,0 +1,16 @@
+<products>
+clothing
+SpONgeBOb MeME T-shIRt
+15.50
+25
+Medium
+Fumei
+</products>
+<users>
+jdoe 100.0 0
+fjones 100.0 0
+</users>
+<reviews>
+spongebob meme t-shirt
+4 jdoe 1999-09-09 OK TBH it's kinda hilarious
+</reviews>

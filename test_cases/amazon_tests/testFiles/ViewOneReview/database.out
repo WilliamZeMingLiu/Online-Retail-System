@@ -1,0 +1,32 @@
+<products>
+book
+Data Abstraction
+79.99
+20
+978-013292372-9
+Carrano
+movie
+The Killer Rabbit of Caerbannog: A Documentary
+0.01
+800000
+Disaster
+PG-13
+clothing
+Men's Fitted Shirt
+39.99
+25
+Medium
+J. Crew
+</products>
+<users>
+fjones 100 0
+jdoe 100 0
+</users>
+<reviews>
+Data Abstraction
+3 jdoe 2000-01-01 Too abstract.
+The Killer Rabbit of Caerbannog: A Documentary
+5 jdoe 2016-02-27 Why did the police show up at the end?
+Men's Fitted Shirt
+3 fjones 2007-09-04 Way too tight.
+</reviews>

@@ -1,0 +1,27 @@
+<products>
+book
+Data Abstraction
+79.99
+20
+978-013292372-9
+Carrano
+clothing
+FRC Fan T-Shirt
+17
+3
+7
+FIRST
+</products>
+<users>
+jdoe 100 0
+</users>
+<reviews>
+Data Abstraction
+3 jdoe 1999-09-09 Too abstract.
+Data Abstraction
+4 jdoe 2014-12-31 AAerial Assault is kinda cool
+Data Abstraction
+5 jdoe 2016-02-28 SStronghold-really-awesome
+FRC Fan T-Shirt
+3 jdoe 0001-01-01 DDatum structurum!
+</reviews>

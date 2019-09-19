@@ -1,0 +1,590 @@
+
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.SortEmpty:
+------------------------------------------------------------------------------
+==7157== Memcheck, a memory error detector
+==7157== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7157== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7157== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortEmpty
+==7157== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortEmpty
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortEmpty
+[       OK ] MSortTest.SortEmpty (10 ms)
+[----------] 1 test from MSortTest (15 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (38 ms total)
+[  PASSED  ] 1 test.
+==7157== 
+==7157== HEAP SUMMARY:
+==7157==     in use at exit: 72,704 bytes in 1 blocks
+==7157==   total heap usage: 298 allocs, 297 frees, 127,800 bytes allocated
+==7157== 
+==7157== LEAK SUMMARY:
+==7157==    definitely lost: 0 bytes in 0 blocks
+==7157==    indirectly lost: 0 bytes in 0 blocks
+==7157==      possibly lost: 0 bytes in 0 blocks
+==7157==    still reachable: 0 bytes in 0 blocks
+==7157==         suppressed: 72,704 bytes in 1 blocks
+==7157== 
+==7157== For counts of detected and suppressed errors, rerun with: -v
+==7157== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.SortSingleElement:
+------------------------------------------------------------------------------
+==7158== Memcheck, a memory error detector
+==7158== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7158== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7158== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortSingleElement
+==7158== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortSingleElement
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortSingleElement
+[       OK ] MSortTest.SortSingleElement (16 ms)
+[----------] 1 test from MSortTest (21 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (44 ms total)
+[  PASSED  ] 1 test.
+==7158== 
+==7158== HEAP SUMMARY:
+==7158==     in use at exit: 72,704 bytes in 1 blocks
+==7158==   total heap usage: 299 allocs, 298 frees, 127,860 bytes allocated
+==7158== 
+==7158== LEAK SUMMARY:
+==7158==    definitely lost: 0 bytes in 0 blocks
+==7158==    indirectly lost: 0 bytes in 0 blocks
+==7158==      possibly lost: 0 bytes in 0 blocks
+==7158==    still reachable: 0 bytes in 0 blocks
+==7158==         suppressed: 72,704 bytes in 1 blocks
+==7158== 
+==7158== For counts of detected and suppressed errors, rerun with: -v
+==7158== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.SortTwoElements_InOrder:
+------------------------------------------------------------------------------
+==7159== Memcheck, a memory error detector
+==7159== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7159== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7159== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortTwoElements_InOrder
+==7159== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortTwoElements_InOrder
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortTwoElements_InOrder
+[       OK ] MSortTest.SortTwoElements_InOrder (21 ms)
+[----------] 1 test from MSortTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (48 ms total)
+[  PASSED  ] 1 test.
+==7159== 
+==7159== HEAP SUMMARY:
+==7159==     in use at exit: 72,704 bytes in 1 blocks
+==7159==   total heap usage: 301 allocs, 300 frees, 127,975 bytes allocated
+==7159== 
+==7159== LEAK SUMMARY:
+==7159==    definitely lost: 0 bytes in 0 blocks
+==7159==    indirectly lost: 0 bytes in 0 blocks
+==7159==      possibly lost: 0 bytes in 0 blocks
+==7159==    still reachable: 0 bytes in 0 blocks
+==7159==         suppressed: 72,704 bytes in 1 blocks
+==7159== 
+==7159== For counts of detected and suppressed errors, rerun with: -v
+==7159== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.SortTwoElements_OutOfOrder:
+------------------------------------------------------------------------------
+==7160== Memcheck, a memory error detector
+==7160== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7160== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7160== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortTwoElements_OutOfOrder
+==7160== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortTwoElements_OutOfOrder
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortTwoElements_OutOfOrder
+[       OK ] MSortTest.SortTwoElements_OutOfOrder (21 ms)
+[----------] 1 test from MSortTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (49 ms total)
+[  PASSED  ] 1 test.
+==7160== 
+==7160== HEAP SUMMARY:
+==7160==     in use at exit: 72,704 bytes in 1 blocks
+==7160==   total heap usage: 301 allocs, 300 frees, 128,053 bytes allocated
+==7160== 
+==7160== LEAK SUMMARY:
+==7160==    definitely lost: 0 bytes in 0 blocks
+==7160==    indirectly lost: 0 bytes in 0 blocks
+==7160==      possibly lost: 0 bytes in 0 blocks
+==7160==    still reachable: 0 bytes in 0 blocks
+==7160==         suppressed: 72,704 bytes in 1 blocks
+==7160== 
+==7160== For counts of detected and suppressed errors, rerun with: -v
+==7160== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.SortThreeElements_10_20_30:
+------------------------------------------------------------------------------
+==7161== Memcheck, a memory error detector
+==7161== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7161== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7161== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_10_20_30
+==7161== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_10_20_30
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_10_20_30
+[       OK ] MSortTest.SortThreeElements_10_20_30 (21 ms)
+[----------] 1 test from MSortTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (48 ms total)
+[  PASSED  ] 1 test.
+==7161== 
+==7161== HEAP SUMMARY:
+==7161==     in use at exit: 72,704 bytes in 1 blocks
+==7161==   total heap usage: 303 allocs, 302 frees, 128,085 bytes allocated
+==7161== 
+==7161== LEAK SUMMARY:
+==7161==    definitely lost: 0 bytes in 0 blocks
+==7161==    indirectly lost: 0 bytes in 0 blocks
+==7161==      possibly lost: 0 bytes in 0 blocks
+==7161==    still reachable: 0 bytes in 0 blocks
+==7161==         suppressed: 72,704 bytes in 1 blocks
+==7161== 
+==7161== For counts of detected and suppressed errors, rerun with: -v
+==7161== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.SortThreeElements_10_30_20:
+------------------------------------------------------------------------------
+==7162== Memcheck, a memory error detector
+==7162== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7162== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7162== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_10_30_20
+==7162== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_10_30_20
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_10_30_20
+[       OK ] MSortTest.SortThreeElements_10_30_20 (22 ms)
+[----------] 1 test from MSortTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (49 ms total)
+[  PASSED  ] 1 test.
+==7162== 
+==7162== HEAP SUMMARY:
+==7162==     in use at exit: 72,704 bytes in 1 blocks
+==7162==   total heap usage: 303 allocs, 302 frees, 128,085 bytes allocated
+==7162== 
+==7162== LEAK SUMMARY:
+==7162==    definitely lost: 0 bytes in 0 blocks
+==7162==    indirectly lost: 0 bytes in 0 blocks
+==7162==      possibly lost: 0 bytes in 0 blocks
+==7162==    still reachable: 0 bytes in 0 blocks
+==7162==         suppressed: 72,704 bytes in 1 blocks
+==7162== 
+==7162== For counts of detected and suppressed errors, rerun with: -v
+==7162== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.SortThreeElements_20_10_30:
+------------------------------------------------------------------------------
+==7163== Memcheck, a memory error detector
+==7163== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7163== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7163== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_20_10_30
+==7163== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_20_10_30
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_20_10_30
+[       OK ] MSortTest.SortThreeElements_20_10_30 (22 ms)
+[----------] 1 test from MSortTest (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (49 ms total)
+[  PASSED  ] 1 test.
+==7163== 
+==7163== HEAP SUMMARY:
+==7163==     in use at exit: 72,704 bytes in 1 blocks
+==7163==   total heap usage: 303 allocs, 302 frees, 128,085 bytes allocated
+==7163== 
+==7163== LEAK SUMMARY:
+==7163==    definitely lost: 0 bytes in 0 blocks
+==7163==    indirectly lost: 0 bytes in 0 blocks
+==7163==      possibly lost: 0 bytes in 0 blocks
+==7163==    still reachable: 0 bytes in 0 blocks
+==7163==         suppressed: 72,704 bytes in 1 blocks
+==7163== 
+==7163== For counts of detected and suppressed errors, rerun with: -v
+==7163== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.SortThreeElements_20_30_10:
+------------------------------------------------------------------------------
+==7164== Memcheck, a memory error detector
+==7164== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7164== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7164== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_20_30_10
+==7164== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_20_30_10
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_20_30_10
+[       OK ] MSortTest.SortThreeElements_20_30_10 (22 ms)
+[----------] 1 test from MSortTest (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (49 ms total)
+[  PASSED  ] 1 test.
+==7164== 
+==7164== HEAP SUMMARY:
+==7164==     in use at exit: 72,704 bytes in 1 blocks
+==7164==   total heap usage: 303 allocs, 302 frees, 128,085 bytes allocated
+==7164== 
+==7164== LEAK SUMMARY:
+==7164==    definitely lost: 0 bytes in 0 blocks
+==7164==    indirectly lost: 0 bytes in 0 blocks
+==7164==      possibly lost: 0 bytes in 0 blocks
+==7164==    still reachable: 0 bytes in 0 blocks
+==7164==         suppressed: 72,704 bytes in 1 blocks
+==7164== 
+==7164== For counts of detected and suppressed errors, rerun with: -v
+==7164== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.SortThreeElements_30_10_20:
+------------------------------------------------------------------------------
+==7165== Memcheck, a memory error detector
+==7165== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7165== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7165== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_30_10_20
+==7165== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_30_10_20
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_30_10_20
+[       OK ] MSortTest.SortThreeElements_30_10_20 (21 ms)
+[----------] 1 test from MSortTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (50 ms total)
+[  PASSED  ] 1 test.
+==7165== 
+==7165== HEAP SUMMARY:
+==7165==     in use at exit: 72,704 bytes in 1 blocks
+==7165==   total heap usage: 303 allocs, 302 frees, 128,085 bytes allocated
+==7165== 
+==7165== LEAK SUMMARY:
+==7165==    definitely lost: 0 bytes in 0 blocks
+==7165==    indirectly lost: 0 bytes in 0 blocks
+==7165==      possibly lost: 0 bytes in 0 blocks
+==7165==    still reachable: 0 bytes in 0 blocks
+==7165==         suppressed: 72,704 bytes in 1 blocks
+==7165== 
+==7165== For counts of detected and suppressed errors, rerun with: -v
+==7165== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.SortThreeElements_30_20_10:
+------------------------------------------------------------------------------
+==7166== Memcheck, a memory error detector
+==7166== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7166== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7166== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_30_20_10
+==7166== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_30_20_10
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_30_20_10
+[       OK ] MSortTest.SortThreeElements_30_20_10 (23 ms)
+[----------] 1 test from MSortTest (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (51 ms total)
+[  PASSED  ] 1 test.
+==7166== 
+==7166== HEAP SUMMARY:
+==7166==     in use at exit: 72,704 bytes in 1 blocks
+==7166==   total heap usage: 303 allocs, 302 frees, 128,085 bytes allocated
+==7166== 
+==7166== LEAK SUMMARY:
+==7166==    definitely lost: 0 bytes in 0 blocks
+==7166==    indirectly lost: 0 bytes in 0 blocks
+==7166==      possibly lost: 0 bytes in 0 blocks
+==7166==    still reachable: 0 bytes in 0 blocks
+==7166==         suppressed: 72,704 bytes in 1 blocks
+==7166== 
+==7166== For counts of detected and suppressed errors, rerun with: -v
+==7166== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.SortThreeElements_Greater:
+------------------------------------------------------------------------------
+==7167== Memcheck, a memory error detector
+==7167== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7167== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7167== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_Greater
+==7167== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_Greater
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_Greater
+[       OK ] MSortTest.SortThreeElements_Greater (21 ms)
+[----------] 1 test from MSortTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (49 ms total)
+[  PASSED  ] 1 test.
+==7167== 
+==7167== HEAP SUMMARY:
+==7167==     in use at exit: 72,704 bytes in 1 blocks
+==7167==   total heap usage: 303 allocs, 302 frees, 128,059 bytes allocated
+==7167== 
+==7167== LEAK SUMMARY:
+==7167==    definitely lost: 0 bytes in 0 blocks
+==7167==    indirectly lost: 0 bytes in 0 blocks
+==7167==      possibly lost: 0 bytes in 0 blocks
+==7167==    still reachable: 0 bytes in 0 blocks
+==7167==         suppressed: 72,704 bytes in 1 blocks
+==7167== 
+==7167== For counts of detected and suppressed errors, rerun with: -v
+==7167== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.SortStrings:
+------------------------------------------------------------------------------
+==7168== Memcheck, a memory error detector
+==7168== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7168== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7168== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortStrings
+==7168== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortStrings
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortStrings
+[       OK ] MSortTest.SortStrings (26 ms)
+[----------] 1 test from MSortTest (31 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (54 ms total)
+[  PASSED  ] 1 test.
+==7168== 
+==7168== HEAP SUMMARY:
+==7168==     in use at exit: 72,704 bytes in 1 blocks
+==7168==   total heap usage: 306 allocs, 305 frees, 128,934 bytes allocated
+==7168== 
+==7168== LEAK SUMMARY:
+==7168==    definitely lost: 0 bytes in 0 blocks
+==7168==    indirectly lost: 0 bytes in 0 blocks
+==7168==      possibly lost: 0 bytes in 0 blocks
+==7168==    still reachable: 0 bytes in 0 blocks
+==7168==         suppressed: 72,704 bytes in 1 blocks
+==7168== 
+==7168== For counts of detected and suppressed errors, rerun with: -v
+==7168== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.SortPairs:
+------------------------------------------------------------------------------
+==7169== Memcheck, a memory error detector
+==7169== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7169== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7169== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortPairs
+==7169== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortPairs
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortPairs
+[       OK ] MSortTest.SortPairs (30 ms)
+[----------] 1 test from MSortTest (38 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (61 ms total)
+[  PASSED  ] 1 test.
+==7169== 
+==7169== HEAP SUMMARY:
+==7169==     in use at exit: 72,704 bytes in 1 blocks
+==7169==   total heap usage: 306 allocs, 305 frees, 129,200 bytes allocated
+==7169== 
+==7169== LEAK SUMMARY:
+==7169==    definitely lost: 0 bytes in 0 blocks
+==7169==    indirectly lost: 0 bytes in 0 blocks
+==7169==      possibly lost: 0 bytes in 0 blocks
+==7169==    still reachable: 0 bytes in 0 blocks
+==7169==         suppressed: 72,704 bytes in 1 blocks
+==7169== 
+==7169== For counts of detected and suppressed errors, rerun with: -v
+==7169== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.Stress10RandomElements_Less:
+------------------------------------------------------------------------------
+==7170== Memcheck, a memory error detector
+==7170== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7170== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7170== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.Stress10RandomElements_Less
+==7170== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.Stress10RandomElements_Less
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.Stress10RandomElements_Less
+[       OK ] MSortTest.Stress10RandomElements_Less (37 ms)
+[----------] 1 test from MSortTest (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (65 ms total)
+[  PASSED  ] 1 test.
+==7170== 
+==7170== HEAP SUMMARY:
+==7170==     in use at exit: 72,704 bytes in 1 blocks
+==7170==   total heap usage: 308 allocs, 307 frees, 128,459 bytes allocated
+==7170== 
+==7170== LEAK SUMMARY:
+==7170==    definitely lost: 0 bytes in 0 blocks
+==7170==    indirectly lost: 0 bytes in 0 blocks
+==7170==      possibly lost: 0 bytes in 0 blocks
+==7170==    still reachable: 0 bytes in 0 blocks
+==7170==         suppressed: 72,704 bytes in 1 blocks
+==7170== 
+==7170== For counts of detected and suppressed errors, rerun with: -v
+==7170== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.Stress100RandomElements_Less:
+------------------------------------------------------------------------------
+==7171== Memcheck, a memory error detector
+==7171== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7171== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7171== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.Stress100RandomElements_Less
+==7171== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.Stress100RandomElements_Less
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.Stress100RandomElements_Less
+[       OK ] MSortTest.Stress100RandomElements_Less (32 ms)
+[----------] 1 test from MSortTest (37 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (71 ms total)
+[  PASSED  ] 1 test.
+==7171== 
+==7171== HEAP SUMMARY:
+==7171==     in use at exit: 72,704 bytes in 1 blocks
+==7171==   total heap usage: 398 allocs, 397 frees, 168,085 bytes allocated
+==7171== 
+==7171== LEAK SUMMARY:
+==7171==    definitely lost: 0 bytes in 0 blocks
+==7171==    indirectly lost: 0 bytes in 0 blocks
+==7171==      possibly lost: 0 bytes in 0 blocks
+==7171==    still reachable: 0 bytes in 0 blocks
+==7171==         suppressed: 72,704 bytes in 1 blocks
+==7171== 
+==7171== For counts of detected and suppressed errors, rerun with: -v
+==7171== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.Stress1000RandomElements_Less:
+------------------------------------------------------------------------------
+==7172== Memcheck, a memory error detector
+==7172== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7172== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7172== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.Stress1000RandomElements_Less
+==7172== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.Stress1000RandomElements_Less
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.Stress1000RandomElements_Less
+[       OK ] MSortTest.Stress1000RandomElements_Less (65 ms)
+[----------] 1 test from MSortTest (69 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (92 ms total)
+[  PASSED  ] 1 test.
+==7172== 
+==7172== HEAP SUMMARY:
+==7172==     in use at exit: 72,704 bytes in 1 blocks
+==7172==   total heap usage: 1,298 allocs, 1,297 frees, 4,128,111 bytes allocated
+==7172== 
+==7172== LEAK SUMMARY:
+==7172==    definitely lost: 0 bytes in 0 blocks
+==7172==    indirectly lost: 0 bytes in 0 blocks
+==7172==      possibly lost: 0 bytes in 0 blocks
+==7172==    still reachable: 0 bytes in 0 blocks
+==7172==         suppressed: 72,704 bytes in 1 blocks
+==7172== 
+==7172== For counts of detected and suppressed errors, rerun with: -v
+==7172== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MSortTest.Stress10000RandomElements_Less:
+------------------------------------------------------------------------------
+==7173== Memcheck, a memory error detector
+==7173== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7173== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7173== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.Stress10000RandomElements_Less
+==7173== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.Stress10000RandomElements_Less
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.Stress10000RandomElements_Less
+Stack size was 0x800000 bytes, setting it to the max of infinity bytes.
+[       OK ] MSortTest.Stress10000RandomElements_Less (2122 ms)
+[----------] 1 test from MSortTest (2127 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2150 ms total)
+[  PASSED  ] 1 test.
+==7173== 
+==7173== HEAP SUMMARY:
+==7173==     in use at exit: 72,704 bytes in 1 blocks
+==7173==   total heap usage: 10,300 allocs, 10,299 frees, 400,129,163 bytes allocated
+==7173== 
+==7173== LEAK SUMMARY:
+==7173==    definitely lost: 0 bytes in 0 blocks
+==7173==    indirectly lost: 0 bytes in 0 blocks
+==7173==      possibly lost: 0 bytes in 0 blocks
+==7173==    still reachable: 0 bytes in 0 blocks
+==7173==         suppressed: 72,704 bytes in 1 blocks
+==7173== 
+==7173== For counts of detected and suppressed errors, rerun with: -v
+==7173== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+------------------------------------------------------------------------------
+OUTPUT OF TEST MergeSortRuntime.Runtime:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = MergeSortRuntime.Runtime
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MergeSortRuntime
+[ RUN      ] MergeSortRuntime.Runtime
+>> Evaluating runtime of mergeSort()

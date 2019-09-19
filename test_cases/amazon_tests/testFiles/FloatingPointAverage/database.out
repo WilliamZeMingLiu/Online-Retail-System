@@ -1,0 +1,20 @@
+<products>
+book
+Data Abstraction
+79.99
+20
+978-013292372-9
+Carrano
+</products>
+<users>
+fjones 100 0
+jdoe 100 0
+</users>
+<reviews>
+Data Abstraction
+2 jdoe 1999-09-09 Too abstract.
+Data Abstraction
+1 fjones 2028-07-03 Extremely outdated!
+Data Abstraction
+5 jdoe 2016-01-28 Not always the best reference for abstract algorithms, but quite good for realistic implementations
+</reviews>

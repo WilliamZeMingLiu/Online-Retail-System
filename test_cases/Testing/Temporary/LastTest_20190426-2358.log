@@ -1,0 +1,2321 @@
+Start testing: Apr 26 16:58 PDT
+----------------------------------------------------------
+1/51 Testing: ComparatorsTest.StandardLexicographic
+1/51 Test: ComparatorsTest.StandardLexicographic
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/comparators_tests" "--gtest_filter=ComparatorsTest.StandardLexicographic"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests
+"ComparatorsTest.StandardLexicographic" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ComparatorsTest.StandardLexicographic
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ComparatorsTest
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/hw5_comparators /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/testFiles/output.txt
+[ RUN      ] ComparatorsTest.StandardLexicographic
+[       OK ] ComparatorsTest.StandardLexicographic (0 ms)
+[----------] 1 test from ComparatorsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (532 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"ComparatorsTest.StandardLexicographic" end time: Apr 26 16:58 PDT
+"ComparatorsTest.StandardLexicographic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/51 Testing: ComparatorsTest.DescendingLexicographic
+2/51 Test: ComparatorsTest.DescendingLexicographic
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/comparators_tests" "--gtest_filter=ComparatorsTest.DescendingLexicographic"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests
+"ComparatorsTest.DescendingLexicographic" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ComparatorsTest.DescendingLexicographic
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ComparatorsTest
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/hw5_comparators /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/testFiles/output.txt
+[ RUN      ] ComparatorsTest.DescendingLexicographic
+[       OK ] ComparatorsTest.DescendingLexicographic (0 ms)
+[----------] 1 test from ComparatorsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (526 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"ComparatorsTest.DescendingLexicographic" end time: Apr 26 16:58 PDT
+"ComparatorsTest.DescendingLexicographic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/51 Testing: ComparatorsTest.CaseInsensitiveLexicographic
+3/51 Test: ComparatorsTest.CaseInsensitiveLexicographic
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/comparators_tests" "--gtest_filter=ComparatorsTest.CaseInsensitiveLexicographic"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests
+"ComparatorsTest.CaseInsensitiveLexicographic" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ComparatorsTest.CaseInsensitiveLexicographic
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ComparatorsTest
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/hw5_comparators /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/testFiles/output.txt
+[ RUN      ] ComparatorsTest.CaseInsensitiveLexicographic
+[       OK ] ComparatorsTest.CaseInsensitiveLexicographic (0 ms)
+[----------] 1 test from ComparatorsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (524 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"ComparatorsTest.CaseInsensitiveLexicographic" end time: Apr 26 16:58 PDT
+"ComparatorsTest.CaseInsensitiveLexicographic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/51 Testing: ComparatorsTest.IgnoreLeadingWhitespace
+4/51 Test: ComparatorsTest.IgnoreLeadingWhitespace
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/comparators_tests" "--gtest_filter=ComparatorsTest.IgnoreLeadingWhitespace"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests
+"ComparatorsTest.IgnoreLeadingWhitespace" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ComparatorsTest.IgnoreLeadingWhitespace
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ComparatorsTest
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/hw5_comparators /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/testFiles/output.txt
+[ RUN      ] ComparatorsTest.IgnoreLeadingWhitespace
+[       OK ] ComparatorsTest.IgnoreLeadingWhitespace (0 ms)
+[----------] 1 test from ComparatorsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (531 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"ComparatorsTest.IgnoreLeadingWhitespace" end time: Apr 26 16:58 PDT
+"ComparatorsTest.IgnoreLeadingWhitespace" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/51 Testing: MSortTest.SortEmpty
+5/51 Test: MSortTest.SortEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortEmpty"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.SortEmpty" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7157== Memcheck, a memory error detector
+==7157== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7157== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7157== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortEmpty
+==7157== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortEmpty
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortEmpty
+[       OK ] MSortTest.SortEmpty (10 ms)
+[----------] 1 test from MSortTest (15 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (38 ms total)
+[  PASSED  ] 1 test.
+==7157== 
+==7157== HEAP SUMMARY:
+==7157==     in use at exit: 72,704 bytes in 1 blocks
+==7157==   total heap usage: 298 allocs, 297 frees, 127,800 bytes allocated
+==7157== 
+==7157== LEAK SUMMARY:
+==7157==    definitely lost: 0 bytes in 0 blocks
+==7157==    indirectly lost: 0 bytes in 0 blocks
+==7157==      possibly lost: 0 bytes in 0 blocks
+==7157==    still reachable: 0 bytes in 0 blocks
+==7157==         suppressed: 72,704 bytes in 1 blocks
+==7157== 
+==7157== For counts of detected and suppressed errors, rerun with: -v
+==7157== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortEmpty" end time: Apr 26 16:58 PDT
+"MSortTest.SortEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/51 Testing: MSortTest.SortSingleElement
+6/51 Test: MSortTest.SortSingleElement
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortSingleElement"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.SortSingleElement" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7158== Memcheck, a memory error detector
+==7158== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7158== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7158== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortSingleElement
+==7158== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortSingleElement
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortSingleElement
+[       OK ] MSortTest.SortSingleElement (16 ms)
+[----------] 1 test from MSortTest (21 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (44 ms total)
+[  PASSED  ] 1 test.
+==7158== 
+==7158== HEAP SUMMARY:
+==7158==     in use at exit: 72,704 bytes in 1 blocks
+==7158==   total heap usage: 299 allocs, 298 frees, 127,860 bytes allocated
+==7158== 
+==7158== LEAK SUMMARY:
+==7158==    definitely lost: 0 bytes in 0 blocks
+==7158==    indirectly lost: 0 bytes in 0 blocks
+==7158==      possibly lost: 0 bytes in 0 blocks
+==7158==    still reachable: 0 bytes in 0 blocks
+==7158==         suppressed: 72,704 bytes in 1 blocks
+==7158== 
+==7158== For counts of detected and suppressed errors, rerun with: -v
+==7158== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.61 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortSingleElement" end time: Apr 26 16:58 PDT
+"MSortTest.SortSingleElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/51 Testing: MSortTest.SortTwoElements_InOrder
+7/51 Test: MSortTest.SortTwoElements_InOrder
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortTwoElements_InOrder"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.SortTwoElements_InOrder" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7159== Memcheck, a memory error detector
+==7159== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7159== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7159== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortTwoElements_InOrder
+==7159== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortTwoElements_InOrder
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortTwoElements_InOrder
+[       OK ] MSortTest.SortTwoElements_InOrder (21 ms)
+[----------] 1 test from MSortTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (48 ms total)
+[  PASSED  ] 1 test.
+==7159== 
+==7159== HEAP SUMMARY:
+==7159==     in use at exit: 72,704 bytes in 1 blocks
+==7159==   total heap usage: 301 allocs, 300 frees, 127,975 bytes allocated
+==7159== 
+==7159== LEAK SUMMARY:
+==7159==    definitely lost: 0 bytes in 0 blocks
+==7159==    indirectly lost: 0 bytes in 0 blocks
+==7159==      possibly lost: 0 bytes in 0 blocks
+==7159==    still reachable: 0 bytes in 0 blocks
+==7159==         suppressed: 72,704 bytes in 1 blocks
+==7159== 
+==7159== For counts of detected and suppressed errors, rerun with: -v
+==7159== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortTwoElements_InOrder" end time: Apr 26 16:58 PDT
+"MSortTest.SortTwoElements_InOrder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/51 Testing: MSortTest.SortTwoElements_OutOfOrder
+8/51 Test: MSortTest.SortTwoElements_OutOfOrder
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortTwoElements_OutOfOrder"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.SortTwoElements_OutOfOrder" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7160== Memcheck, a memory error detector
+==7160== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7160== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7160== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortTwoElements_OutOfOrder
+==7160== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortTwoElements_OutOfOrder
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortTwoElements_OutOfOrder
+[       OK ] MSortTest.SortTwoElements_OutOfOrder (21 ms)
+[----------] 1 test from MSortTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (49 ms total)
+[  PASSED  ] 1 test.
+==7160== 
+==7160== HEAP SUMMARY:
+==7160==     in use at exit: 72,704 bytes in 1 blocks
+==7160==   total heap usage: 301 allocs, 300 frees, 128,053 bytes allocated
+==7160== 
+==7160== LEAK SUMMARY:
+==7160==    definitely lost: 0 bytes in 0 blocks
+==7160==    indirectly lost: 0 bytes in 0 blocks
+==7160==      possibly lost: 0 bytes in 0 blocks
+==7160==    still reachable: 0 bytes in 0 blocks
+==7160==         suppressed: 72,704 bytes in 1 blocks
+==7160== 
+==7160== For counts of detected and suppressed errors, rerun with: -v
+==7160== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortTwoElements_OutOfOrder" end time: Apr 26 16:58 PDT
+"MSortTest.SortTwoElements_OutOfOrder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/51 Testing: MSortTest.SortThreeElements_10_20_30
+9/51 Test: MSortTest.SortThreeElements_10_20_30
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortThreeElements_10_20_30"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.SortThreeElements_10_20_30" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7161== Memcheck, a memory error detector
+==7161== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7161== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7161== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_10_20_30
+==7161== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_10_20_30
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_10_20_30
+[       OK ] MSortTest.SortThreeElements_10_20_30 (21 ms)
+[----------] 1 test from MSortTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (48 ms total)
+[  PASSED  ] 1 test.
+==7161== 
+==7161== HEAP SUMMARY:
+==7161==     in use at exit: 72,704 bytes in 1 blocks
+==7161==   total heap usage: 303 allocs, 302 frees, 128,085 bytes allocated
+==7161== 
+==7161== LEAK SUMMARY:
+==7161==    definitely lost: 0 bytes in 0 blocks
+==7161==    indirectly lost: 0 bytes in 0 blocks
+==7161==      possibly lost: 0 bytes in 0 blocks
+==7161==    still reachable: 0 bytes in 0 blocks
+==7161==         suppressed: 72,704 bytes in 1 blocks
+==7161== 
+==7161== For counts of detected and suppressed errors, rerun with: -v
+==7161== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortThreeElements_10_20_30" end time: Apr 26 16:58 PDT
+"MSortTest.SortThreeElements_10_20_30" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/51 Testing: MSortTest.SortThreeElements_10_30_20
+10/51 Test: MSortTest.SortThreeElements_10_30_20
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortThreeElements_10_30_20"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.SortThreeElements_10_30_20" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7162== Memcheck, a memory error detector
+==7162== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7162== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7162== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_10_30_20
+==7162== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_10_30_20
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_10_30_20
+[       OK ] MSortTest.SortThreeElements_10_30_20 (22 ms)
+[----------] 1 test from MSortTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (49 ms total)
+[  PASSED  ] 1 test.
+==7162== 
+==7162== HEAP SUMMARY:
+==7162==     in use at exit: 72,704 bytes in 1 blocks
+==7162==   total heap usage: 303 allocs, 302 frees, 128,085 bytes allocated
+==7162== 
+==7162== LEAK SUMMARY:
+==7162==    definitely lost: 0 bytes in 0 blocks
+==7162==    indirectly lost: 0 bytes in 0 blocks
+==7162==      possibly lost: 0 bytes in 0 blocks
+==7162==    still reachable: 0 bytes in 0 blocks
+==7162==         suppressed: 72,704 bytes in 1 blocks
+==7162== 
+==7162== For counts of detected and suppressed errors, rerun with: -v
+==7162== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortThreeElements_10_30_20" end time: Apr 26 16:58 PDT
+"MSortTest.SortThreeElements_10_30_20" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/51 Testing: MSortTest.SortThreeElements_20_10_30
+11/51 Test: MSortTest.SortThreeElements_20_10_30
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortThreeElements_20_10_30"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.SortThreeElements_20_10_30" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7163== Memcheck, a memory error detector
+==7163== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7163== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7163== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_20_10_30
+==7163== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_20_10_30
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_20_10_30
+[       OK ] MSortTest.SortThreeElements_20_10_30 (22 ms)
+[----------] 1 test from MSortTest (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (49 ms total)
+[  PASSED  ] 1 test.
+==7163== 
+==7163== HEAP SUMMARY:
+==7163==     in use at exit: 72,704 bytes in 1 blocks
+==7163==   total heap usage: 303 allocs, 302 frees, 128,085 bytes allocated
+==7163== 
+==7163== LEAK SUMMARY:
+==7163==    definitely lost: 0 bytes in 0 blocks
+==7163==    indirectly lost: 0 bytes in 0 blocks
+==7163==      possibly lost: 0 bytes in 0 blocks
+==7163==    still reachable: 0 bytes in 0 blocks
+==7163==         suppressed: 72,704 bytes in 1 blocks
+==7163== 
+==7163== For counts of detected and suppressed errors, rerun with: -v
+==7163== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortThreeElements_20_10_30" end time: Apr 26 16:58 PDT
+"MSortTest.SortThreeElements_20_10_30" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/51 Testing: MSortTest.SortThreeElements_20_30_10
+12/51 Test: MSortTest.SortThreeElements_20_30_10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortThreeElements_20_30_10"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.SortThreeElements_20_30_10" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7164== Memcheck, a memory error detector
+==7164== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7164== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7164== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_20_30_10
+==7164== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_20_30_10
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_20_30_10
+[       OK ] MSortTest.SortThreeElements_20_30_10 (22 ms)
+[----------] 1 test from MSortTest (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (49 ms total)
+[  PASSED  ] 1 test.
+==7164== 
+==7164== HEAP SUMMARY:
+==7164==     in use at exit: 72,704 bytes in 1 blocks
+==7164==   total heap usage: 303 allocs, 302 frees, 128,085 bytes allocated
+==7164== 
+==7164== LEAK SUMMARY:
+==7164==    definitely lost: 0 bytes in 0 blocks
+==7164==    indirectly lost: 0 bytes in 0 blocks
+==7164==      possibly lost: 0 bytes in 0 blocks
+==7164==    still reachable: 0 bytes in 0 blocks
+==7164==         suppressed: 72,704 bytes in 1 blocks
+==7164== 
+==7164== For counts of detected and suppressed errors, rerun with: -v
+==7164== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.61 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortThreeElements_20_30_10" end time: Apr 26 16:58 PDT
+"MSortTest.SortThreeElements_20_30_10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/51 Testing: MSortTest.SortThreeElements_30_10_20
+13/51 Test: MSortTest.SortThreeElements_30_10_20
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortThreeElements_30_10_20"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.SortThreeElements_30_10_20" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7165== Memcheck, a memory error detector
+==7165== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7165== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7165== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_30_10_20
+==7165== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_30_10_20
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_30_10_20
+[       OK ] MSortTest.SortThreeElements_30_10_20 (21 ms)
+[----------] 1 test from MSortTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (50 ms total)
+[  PASSED  ] 1 test.
+==7165== 
+==7165== HEAP SUMMARY:
+==7165==     in use at exit: 72,704 bytes in 1 blocks
+==7165==   total heap usage: 303 allocs, 302 frees, 128,085 bytes allocated
+==7165== 
+==7165== LEAK SUMMARY:
+==7165==    definitely lost: 0 bytes in 0 blocks
+==7165==    indirectly lost: 0 bytes in 0 blocks
+==7165==      possibly lost: 0 bytes in 0 blocks
+==7165==    still reachable: 0 bytes in 0 blocks
+==7165==         suppressed: 72,704 bytes in 1 blocks
+==7165== 
+==7165== For counts of detected and suppressed errors, rerun with: -v
+==7165== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortThreeElements_30_10_20" end time: Apr 26 16:58 PDT
+"MSortTest.SortThreeElements_30_10_20" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/51 Testing: MSortTest.SortThreeElements_30_20_10
+14/51 Test: MSortTest.SortThreeElements_30_20_10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortThreeElements_30_20_10"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.SortThreeElements_30_20_10" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7166== Memcheck, a memory error detector
+==7166== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7166== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7166== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_30_20_10
+==7166== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_30_20_10
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_30_20_10
+[       OK ] MSortTest.SortThreeElements_30_20_10 (23 ms)
+[----------] 1 test from MSortTest (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (51 ms total)
+[  PASSED  ] 1 test.
+==7166== 
+==7166== HEAP SUMMARY:
+==7166==     in use at exit: 72,704 bytes in 1 blocks
+==7166==   total heap usage: 303 allocs, 302 frees, 128,085 bytes allocated
+==7166== 
+==7166== LEAK SUMMARY:
+==7166==    definitely lost: 0 bytes in 0 blocks
+==7166==    indirectly lost: 0 bytes in 0 blocks
+==7166==      possibly lost: 0 bytes in 0 blocks
+==7166==    still reachable: 0 bytes in 0 blocks
+==7166==         suppressed: 72,704 bytes in 1 blocks
+==7166== 
+==7166== For counts of detected and suppressed errors, rerun with: -v
+==7166== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortThreeElements_30_20_10" end time: Apr 26 16:58 PDT
+"MSortTest.SortThreeElements_30_20_10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/51 Testing: MSortTest.SortThreeElements_Greater
+15/51 Test: MSortTest.SortThreeElements_Greater
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortThreeElements_Greater"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.SortThreeElements_Greater" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7167== Memcheck, a memory error detector
+==7167== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7167== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7167== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_Greater
+==7167== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_Greater
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_Greater
+[       OK ] MSortTest.SortThreeElements_Greater (21 ms)
+[----------] 1 test from MSortTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (49 ms total)
+[  PASSED  ] 1 test.
+==7167== 
+==7167== HEAP SUMMARY:
+==7167==     in use at exit: 72,704 bytes in 1 blocks
+==7167==   total heap usage: 303 allocs, 302 frees, 128,059 bytes allocated
+==7167== 
+==7167== LEAK SUMMARY:
+==7167==    definitely lost: 0 bytes in 0 blocks
+==7167==    indirectly lost: 0 bytes in 0 blocks
+==7167==      possibly lost: 0 bytes in 0 blocks
+==7167==    still reachable: 0 bytes in 0 blocks
+==7167==         suppressed: 72,704 bytes in 1 blocks
+==7167== 
+==7167== For counts of detected and suppressed errors, rerun with: -v
+==7167== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.61 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortThreeElements_Greater" end time: Apr 26 16:58 PDT
+"MSortTest.SortThreeElements_Greater" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/51 Testing: MSortTest.SortStrings
+16/51 Test: MSortTest.SortStrings
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortStrings"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.SortStrings" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7168== Memcheck, a memory error detector
+==7168== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7168== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7168== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortStrings
+==7168== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortStrings
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortStrings
+[       OK ] MSortTest.SortStrings (26 ms)
+[----------] 1 test from MSortTest (31 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (54 ms total)
+[  PASSED  ] 1 test.
+==7168== 
+==7168== HEAP SUMMARY:
+==7168==     in use at exit: 72,704 bytes in 1 blocks
+==7168==   total heap usage: 306 allocs, 305 frees, 128,934 bytes allocated
+==7168== 
+==7168== LEAK SUMMARY:
+==7168==    definitely lost: 0 bytes in 0 blocks
+==7168==    indirectly lost: 0 bytes in 0 blocks
+==7168==      possibly lost: 0 bytes in 0 blocks
+==7168==    still reachable: 0 bytes in 0 blocks
+==7168==         suppressed: 72,704 bytes in 1 blocks
+==7168== 
+==7168== For counts of detected and suppressed errors, rerun with: -v
+==7168== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortStrings" end time: Apr 26 16:58 PDT
+"MSortTest.SortStrings" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/51 Testing: MSortTest.SortPairs
+17/51 Test: MSortTest.SortPairs
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortPairs"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.SortPairs" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7169== Memcheck, a memory error detector
+==7169== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7169== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7169== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.SortPairs
+==7169== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortPairs
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortPairs
+[       OK ] MSortTest.SortPairs (30 ms)
+[----------] 1 test from MSortTest (38 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (61 ms total)
+[  PASSED  ] 1 test.
+==7169== 
+==7169== HEAP SUMMARY:
+==7169==     in use at exit: 72,704 bytes in 1 blocks
+==7169==   total heap usage: 306 allocs, 305 frees, 129,200 bytes allocated
+==7169== 
+==7169== LEAK SUMMARY:
+==7169==    definitely lost: 0 bytes in 0 blocks
+==7169==    indirectly lost: 0 bytes in 0 blocks
+==7169==      possibly lost: 0 bytes in 0 blocks
+==7169==    still reachable: 0 bytes in 0 blocks
+==7169==         suppressed: 72,704 bytes in 1 blocks
+==7169== 
+==7169== For counts of detected and suppressed errors, rerun with: -v
+==7169== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortPairs" end time: Apr 26 16:58 PDT
+"MSortTest.SortPairs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/51 Testing: MSortTest.Stress10RandomElements_Less
+18/51 Test: MSortTest.Stress10RandomElements_Less
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.Stress10RandomElements_Less"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.Stress10RandomElements_Less" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7170== Memcheck, a memory error detector
+==7170== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7170== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7170== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.Stress10RandomElements_Less
+==7170== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.Stress10RandomElements_Less
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.Stress10RandomElements_Less
+[       OK ] MSortTest.Stress10RandomElements_Less (37 ms)
+[----------] 1 test from MSortTest (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (65 ms total)
+[  PASSED  ] 1 test.
+==7170== 
+==7170== HEAP SUMMARY:
+==7170==     in use at exit: 72,704 bytes in 1 blocks
+==7170==   total heap usage: 308 allocs, 307 frees, 128,459 bytes allocated
+==7170== 
+==7170== LEAK SUMMARY:
+==7170==    definitely lost: 0 bytes in 0 blocks
+==7170==    indirectly lost: 0 bytes in 0 blocks
+==7170==      possibly lost: 0 bytes in 0 blocks
+==7170==    still reachable: 0 bytes in 0 blocks
+==7170==         suppressed: 72,704 bytes in 1 blocks
+==7170== 
+==7170== For counts of detected and suppressed errors, rerun with: -v
+==7170== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.Stress10RandomElements_Less" end time: Apr 26 16:58 PDT
+"MSortTest.Stress10RandomElements_Less" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/51 Testing: MSortTest.Stress100RandomElements_Less
+19/51 Test: MSortTest.Stress100RandomElements_Less
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.Stress100RandomElements_Less"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.Stress100RandomElements_Less" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7171== Memcheck, a memory error detector
+==7171== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7171== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7171== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.Stress100RandomElements_Less
+==7171== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.Stress100RandomElements_Less
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.Stress100RandomElements_Less
+[       OK ] MSortTest.Stress100RandomElements_Less (32 ms)
+[----------] 1 test from MSortTest (37 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (71 ms total)
+[  PASSED  ] 1 test.
+==7171== 
+==7171== HEAP SUMMARY:
+==7171==     in use at exit: 72,704 bytes in 1 blocks
+==7171==   total heap usage: 398 allocs, 397 frees, 168,085 bytes allocated
+==7171== 
+==7171== LEAK SUMMARY:
+==7171==    definitely lost: 0 bytes in 0 blocks
+==7171==    indirectly lost: 0 bytes in 0 blocks
+==7171==      possibly lost: 0 bytes in 0 blocks
+==7171==    still reachable: 0 bytes in 0 blocks
+==7171==         suppressed: 72,704 bytes in 1 blocks
+==7171== 
+==7171== For counts of detected and suppressed errors, rerun with: -v
+==7171== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.64 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.Stress100RandomElements_Less" end time: Apr 26 16:58 PDT
+"MSortTest.Stress100RandomElements_Less" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/51 Testing: MSortTest.Stress1000RandomElements_Less
+20/51 Test: MSortTest.Stress1000RandomElements_Less
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.Stress1000RandomElements_Less"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.Stress1000RandomElements_Less" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7172== Memcheck, a memory error detector
+==7172== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7172== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7172== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.Stress1000RandomElements_Less
+==7172== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.Stress1000RandomElements_Less
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.Stress1000RandomElements_Less
+[       OK ] MSortTest.Stress1000RandomElements_Less (65 ms)
+[----------] 1 test from MSortTest (69 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (92 ms total)
+[  PASSED  ] 1 test.
+==7172== 
+==7172== HEAP SUMMARY:
+==7172==     in use at exit: 72,704 bytes in 1 blocks
+==7172==   total heap usage: 1,298 allocs, 1,297 frees, 4,128,111 bytes allocated
+==7172== 
+==7172== LEAK SUMMARY:
+==7172==    definitely lost: 0 bytes in 0 blocks
+==7172==    indirectly lost: 0 bytes in 0 blocks
+==7172==      possibly lost: 0 bytes in 0 blocks
+==7172==    still reachable: 0 bytes in 0 blocks
+==7172==         suppressed: 72,704 bytes in 1 blocks
+==7172== 
+==7172== For counts of detected and suppressed errors, rerun with: -v
+==7172== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.66 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.Stress1000RandomElements_Less" end time: Apr 26 16:58 PDT
+"MSortTest.Stress1000RandomElements_Less" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/51 Testing: MSortTest.Stress10000RandomElements_Less
+21/51 Test: MSortTest.Stress10000RandomElements_Less
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests" "--gtest_filter=MSortTest.Stress10000RandomElements_Less"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MSortTest.Stress10000RandomElements_Less" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+==7173== Memcheck, a memory error detector
+==7173== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7173== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7173== Command: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_tests --gtest_filter=MSortTest.Stress10000RandomElements_Less
+==7173== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.Stress10000RandomElements_Less
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.Stress10000RandomElements_Less
+Stack size was 0x800000 bytes, setting it to the max of infinity bytes.
+[       OK ] MSortTest.Stress10000RandomElements_Less (2122 ms)
+[----------] 1 test from MSortTest (2127 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2150 ms total)
+[  PASSED  ] 1 test.
+==7173== 
+==7173== HEAP SUMMARY:
+==7173==     in use at exit: 72,704 bytes in 1 blocks
+==7173==   total heap usage: 10,300 allocs, 10,299 frees, 400,129,163 bytes allocated
+==7173== 
+==7173== LEAK SUMMARY:
+==7173==    definitely lost: 0 bytes in 0 blocks
+==7173==    indirectly lost: 0 bytes in 0 blocks
+==7173==      possibly lost: 0 bytes in 0 blocks
+==7173==    still reachable: 0 bytes in 0 blocks
+==7173==         suppressed: 72,704 bytes in 1 blocks
+==7173== 
+==7173== For counts of detected and suppressed errors, rerun with: -v
+==7173== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   2.73 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.Stress10000RandomElements_Less" end time: Apr 26 16:58 PDT
+"MSortTest.Stress10000RandomElements_Less" time elapsed: 00:00:02
+----------------------------------------------------------
+
+22/51 Testing: MergeSortRuntime.Runtime
+22/51 Test: MergeSortRuntime.Runtime
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/msort_tests/msort_runtime_tests" "--gtest_filter=MergeSortRuntime.Runtime"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/msort_tests
+"MergeSortRuntime.Runtime" start time: Apr 26 16:58 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = MergeSortRuntime.Runtime
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MergeSortRuntime
+[ RUN      ] MergeSortRuntime.Runtime
+>> Evaluating runtime of mergeSort()
+<end of output>
+Test time =  30.01 sec
+----------------------------------------------------------
+Test Failed.
+"MergeSortRuntime.Runtime" end time: Apr 26 16:59 PDT
+"MergeSortRuntime.Runtime" time elapsed: 00:00:30
+----------------------------------------------------------
+
+23/51 Testing: AmazonReviews.EmptyDatabase
+23/51 Test: AmazonReviews.EmptyDatabase
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.EmptyDatabase"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.EmptyDatabase" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.EmptyDatabase
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.EmptyDatabase
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/EmptyDatabase/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/EmptyDatabase/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/EmptyDatabase/output.txt
+[       OK ] AmazonReviews.EmptyDatabase (573 ms)
+[----------] 1 test from AmazonReviews (573 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (573 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.57 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonReviews.EmptyDatabase" end time: Apr 26 16:59 PDT
+"AmazonReviews.EmptyDatabase" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/51 Testing: AmazonReviews.DatabaseReadback
+24/51 Test: AmazonReviews.DatabaseReadback
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.DatabaseReadback"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.DatabaseReadback" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.DatabaseReadback
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.DatabaseReadback
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/DatabaseReadback/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/DatabaseReadback/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/DatabaseReadback/output.txt
+[       OK ] AmazonReviews.DatabaseReadback (709 ms)
+[----------] 1 test from AmazonReviews (709 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (709 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.71 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonReviews.DatabaseReadback" end time: Apr 26 16:59 PDT
+"AmazonReviews.DatabaseReadback" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/51 Testing: AmazonReviews.AverageRating_OneReview
+25/51 Test: AmazonReviews.AverageRating_OneReview
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.AverageRating_OneReview"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.AverageRating_OneReview" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.AverageRating_OneReview
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.AverageRating_OneReview
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AverageRating_OneReview/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AverageRating_OneReview/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AverageRating_OneReview/output.txt
+[       OK ] AmazonReviews.AverageRating_OneReview (732 ms)
+[----------] 1 test from AmazonReviews (732 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (732 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.73 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonReviews.AverageRating_OneReview" end time: Apr 26 16:59 PDT
+"AmazonReviews.AverageRating_OneReview" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/51 Testing: AmazonReviews.AverageRating_ThreeReviews
+26/51 Test: AmazonReviews.AverageRating_ThreeReviews
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.AverageRating_ThreeReviews"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.AverageRating_ThreeReviews" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.AverageRating_ThreeReviews
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.AverageRating_ThreeReviews
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AverageRating_ThreeReviews/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AverageRating_ThreeReviews/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AverageRating_ThreeReviews/output.txt
+[       OK ] AmazonReviews.AverageRating_ThreeReviews (736 ms)
+[----------] 1 test from AmazonReviews (736 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (736 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.74 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonReviews.AverageRating_ThreeReviews" end time: Apr 26 16:59 PDT
+"AmazonReviews.AverageRating_ThreeReviews" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/51 Testing: AmazonReviews.FloatingPointAverage
+27/51 Test: AmazonReviews.FloatingPointAverage
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.FloatingPointAverage"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.FloatingPointAverage" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.FloatingPointAverage
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.FloatingPointAverage
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/FloatingPointAverage/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/FloatingPointAverage/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/FloatingPointAverage/output.txt
+[       OK ] AmazonReviews.FloatingPointAverage (725 ms)
+[----------] 1 test from AmazonReviews (725 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (725 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.73 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonReviews.FloatingPointAverage" end time: Apr 26 16:59 PDT
+"AmazonReviews.FloatingPointAverage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/51 Testing: AmazonReviews.NoReviews
+28/51 Test: AmazonReviews.NoReviews
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.NoReviews"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.NoReviews" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.NoReviews
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.NoReviews
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/NoReviews/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/NoReviews/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/NoReviews/output.txt
+[       OK ] AmazonReviews.NoReviews (713 ms)
+[----------] 1 test from AmazonReviews (713 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (714 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.72 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonReviews.NoReviews" end time: Apr 26 16:59 PDT
+"AmazonReviews.NoReviews" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/51 Testing: AmazonReviews.ProductNameCaseInsensitive
+29/51 Test: AmazonReviews.ProductNameCaseInsensitive
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.ProductNameCaseInsensitive"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.ProductNameCaseInsensitive" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.ProductNameCaseInsensitive
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.ProductNameCaseInsensitive
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ProductNameCaseInsensitive/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ProductNameCaseInsensitive/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ProductNameCaseInsensitive/output.txt
+[       OK ] AmazonReviews.ProductNameCaseInsensitive (733 ms)
+[----------] 1 test from AmazonReviews (733 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (733 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.73 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonReviews.ProductNameCaseInsensitive" end time: Apr 26 16:59 PDT
+"AmazonReviews.ProductNameCaseInsensitive" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/51 Testing: AmazonReviews.AvgRating_MultipleProducts
+30/51 Test: AmazonReviews.AvgRating_MultipleProducts
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.AvgRating_MultipleProducts"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.AvgRating_MultipleProducts" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.AvgRating_MultipleProducts
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.AvgRating_MultipleProducts
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AvgRating_MultipleProducts/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AvgRating_MultipleProducts/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AvgRating_MultipleProducts/output.txt
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:71: Failure
+Value of: solutionConsole.CompareHit(studentConsole)
+  Actual: false (Mismatch between search result hits on query 1 of 1: Expected:
+[{name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}],
+ actual:
+[{name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+[  FAILED  ] AmazonReviews.AvgRating_MultipleProducts (772 ms)
+[----------] 1 test from AmazonReviews (772 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (772 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AmazonReviews.AvgRating_MultipleProducts
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.77 sec
+----------------------------------------------------------
+Test Failed.
+"AmazonReviews.AvgRating_MultipleProducts" end time: Apr 26 16:59 PDT
+"AmazonReviews.AvgRating_MultipleProducts" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/51 Testing: AmazonReviews.BlankText
+31/51 Test: AmazonReviews.BlankText
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.BlankText"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.BlankText" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.BlankText
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.BlankText
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BlankText/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BlankText/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BlankText/output.txt
+[       OK ] AmazonReviews.BlankText (740 ms)
+[----------] 1 test from AmazonReviews (741 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (741 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.74 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonReviews.BlankText" end time: Apr 26 16:59 PDT
+"AmazonReviews.BlankText" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/51 Testing: AmazonReviews.ViewOneReview
+32/51 Test: AmazonReviews.ViewOneReview
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.ViewOneReview"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.ViewOneReview" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.ViewOneReview
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.ViewOneReview
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewOneReview/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewOneReview/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewOneReview/output.txt
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:71: Failure
+Value of: solutionConsole.CompareHit(studentConsole)
+  Actual: false (Mismatch between search result hits on query 1 of 1: Expected:
+[{name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}],
+ actual:
+[{name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3
+}, {name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+[  FAILED  ] AmazonReviews.ViewOneReview (772 ms)
+[----------] 1 test from AmazonReviews (772 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (772 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AmazonReviews.ViewOneReview
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.78 sec
+----------------------------------------------------------
+Test Failed.
+"AmazonReviews.ViewOneReview" end time: Apr 26 16:59 PDT
+"AmazonReviews.ViewOneReview" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/51 Testing: AmazonReviews.ViewRev_SortedByYear
+33/51 Test: AmazonReviews.ViewRev_SortedByYear
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.ViewRev_SortedByYear"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.ViewRev_SortedByYear" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.ViewRev_SortedByYear
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.ViewRev_SortedByYear
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByYear/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByYear/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByYear/output.txt
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:71: Failure
+Value of: solutionConsole.CompareHit(studentConsole)
+  Actual: false (Mismatch between search result hits on query 1 of 1: Expected:
+[{name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 4
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}],
+ actual:
+[{name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 4
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:73: Failure
+Value of: solutionConsole.CompareReviews(studentConsole)
+  Actual: false (Mismatch between review data on review query 1 of 1: Expected:
+[{rating: 4,
+ username: talksalot,
+ date: 2019-04-08,
+ review text: I was worried that it might be a little too difficult, but honestly it isn't that bad. I loved the parts about static programming and selfless algorithms, as well as the antidisestablishmentarian pedagogy about decentralizing compiler vendors.
+}, {rating: 4,
+ username: fjones,
+ date: 2016-04-08,
+ review text: 
+}, {rating: 3,
+ username: jdoe,
+ date: 2000-01-02,
+ review text: Too abstract.
+}, {rating: 5,
+ username: jdoe,
+ date: 1970-01-01,
+ review text: The beginning of an era
+}],
+ actual:
+[{rating: 5,
+ username: jdoe,
+ date: 2016-02-27,
+ review text: Why did the police show up at the end?
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+[  FAILED  ] AmazonReviews.ViewRev_SortedByYear (775 ms)
+[----------] 1 test from AmazonReviews (775 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (775 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AmazonReviews.ViewRev_SortedByYear
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.78 sec
+----------------------------------------------------------
+Test Failed.
+"AmazonReviews.ViewRev_SortedByYear" end time: Apr 26 16:59 PDT
+"AmazonReviews.ViewRev_SortedByYear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/51 Testing: AmazonReviews.ViewRev_SortedByMonth
+34/51 Test: AmazonReviews.ViewRev_SortedByMonth
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.ViewRev_SortedByMonth"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.ViewRev_SortedByMonth" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.ViewRev_SortedByMonth
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.ViewRev_SortedByMonth
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByMonth/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByMonth/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByMonth/output.txt
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:71: Failure
+Value of: solutionConsole.CompareHit(studentConsole)
+  Actual: false (Mismatch between search result hits on query 1 of 1: Expected:
+[{name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 4
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}],
+ actual:
+[{name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 4
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:73: Failure
+Value of: solutionConsole.CompareReviews(studentConsole)
+  Actual: false (Mismatch between review data on review query 1 of 1: Expected:
+[{rating: 4,
+ username: talksalot,
+ date: 2000-11-08,
+ review text: I was worried that it might be a little too difficult, but honestly it isn't that bad. I loved the parts about static programming and selfless algorithms, as well as the antidisestablishmentarian pedagogy about decentralizing compiler vendors.
+}, {rating: 4,
+ username: fjones,
+ date: 2000-10-20,
+ review text: 
+}, {rating: 3,
+ username: jdoe,
+ date: 2000-05-05,
+ review text: Too abstract.
+}, {rating: 5,
+ username: jdoe,
+ date: 2000-01-31,
+ review text: The beginning of an era
+}],
+ actual:
+[{rating: 5,
+ username: jdoe,
+ date: 2016-02-27,
+ review text: Why did the police show up at the end?
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+[  FAILED  ] AmazonReviews.ViewRev_SortedByMonth (785 ms)
+[----------] 1 test from AmazonReviews (785 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (785 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AmazonReviews.ViewRev_SortedByMonth
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.79 sec
+----------------------------------------------------------
+Test Failed.
+"AmazonReviews.ViewRev_SortedByMonth" end time: Apr 26 16:59 PDT
+"AmazonReviews.ViewRev_SortedByMonth" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/51 Testing: AmazonReviews.ViewRev_SortedByDay
+35/51 Test: AmazonReviews.ViewRev_SortedByDay
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.ViewRev_SortedByDay"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.ViewRev_SortedByDay" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.ViewRev_SortedByDay
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.ViewRev_SortedByDay
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByDay/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByDay/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ViewRev_SortedByDay/output.txt
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:71: Failure
+Value of: solutionConsole.CompareHit(studentConsole)
+  Actual: false (Mismatch between search result hits on query 1 of 1: Expected:
+[{name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 4
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}],
+ actual:
+[{name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 4
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:73: Failure
+Value of: solutionConsole.CompareReviews(studentConsole)
+  Actual: false (Mismatch between review data on review query 1 of 1: Expected:
+[{rating: 4,
+ username: talksalot,
+ date: 2000-11-25,
+ review text: I was worried that it might be a little too difficult, but honestly it isn't that bad. I loved the parts about static programming and selfless algorithms, as well as the antidisestablishmentarian pedagogy about decentralizing compiler vendors.
+}, {rating: 4,
+ username: fjones,
+ date: 2000-11-22,
+ review text: 
+}, {rating: 3,
+ username: jdoe,
+ date: 2000-11-05,
+ review text: Too abstract.
+}, {rating: 5,
+ username: jdoe,
+ date: 2000-11-01,
+ review text: The beginning of an era
+}],
+ actual:
+[{rating: 5,
+ username: jdoe,
+ date: 2016-02-27,
+ review text: Why did the police show up at the end?
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+[  FAILED  ] AmazonReviews.ViewRev_SortedByDay (786 ms)
+[----------] 1 test from AmazonReviews (786 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (786 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AmazonReviews.ViewRev_SortedByDay
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.79 sec
+----------------------------------------------------------
+Test Failed.
+"AmazonReviews.ViewRev_SortedByDay" end time: Apr 26 16:59 PDT
+"AmazonReviews.ViewRev_SortedByDay" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/51 Testing: AmazonReviews.AddReview
+36/51 Test: AmazonReviews.AddReview
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.AddReview"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.AddReview" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.AddReview
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.AddReview
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddReview/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddReview/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddReview/output.txt
+[       OK ] AmazonReviews.AddReview (788 ms)
+[----------] 1 test from AmazonReviews (788 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (788 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.79 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonReviews.AddReview" end time: Apr 26 16:59 PDT
+"AmazonReviews.AddReview" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/51 Testing: AmazonReviews.AddBlankReview
+37/51 Test: AmazonReviews.AddBlankReview
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.AddBlankReview"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.AddBlankReview" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.AddBlankReview
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.AddBlankReview
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddBlankReview/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddBlankReview/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddBlankReview/output.txt
+[       OK ] AmazonReviews.AddBlankReview (768 ms)
+[----------] 1 test from AmazonReviews (768 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (768 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.77 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonReviews.AddBlankReview" end time: Apr 26 16:59 PDT
+"AmazonReviews.AddBlankReview" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/51 Testing: AmazonReviews.AddRevValidDates
+38/51 Test: AmazonReviews.AddRevValidDates
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.AddRevValidDates"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.AddRevValidDates" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.AddRevValidDates
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.AddRevValidDates
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddRevValidDates/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddRevValidDates/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddRevValidDates/output.txt
+[       OK ] AmazonReviews.AddRevValidDates (766 ms)
+[----------] 1 test from AmazonReviews (766 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (766 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.77 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonReviews.AddRevValidDates" end time: Apr 26 16:59 PDT
+"AmazonReviews.AddRevValidDates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/51 Testing: AmazonReviews.AddRevInvalidDates
+39/51 Test: AmazonReviews.AddRevInvalidDates
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviews.AddRevInvalidDates"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviews.AddRevInvalidDates" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviews.AddRevInvalidDates
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviews
+[ RUN      ] AmazonReviews.AddRevInvalidDates
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddRevInvalidDates/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddRevInvalidDates/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/AddRevInvalidDates/output.txt
+[       OK ] AmazonReviews.AddRevInvalidDates (756 ms)
+[----------] 1 test from AmazonReviews (756 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (756 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.76 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonReviews.AddRevInvalidDates" end time: Apr 26 16:59 PDT
+"AmazonReviews.AddRevInvalidDates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/51 Testing: AmazonLogin.LoginOnly
+40/51 Test: AmazonLogin.LoginOnly
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonLogin.LoginOnly"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonLogin.LoginOnly" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonLogin.LoginOnly
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonLogin
+[ RUN      ] AmazonLogin.LoginOnly
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/LoginOnly/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/LoginOnly/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/LoginOnly/output.txt
+[       OK ] AmazonLogin.LoginOnly (712 ms)
+[----------] 1 test from AmazonLogin (712 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (712 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.71 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonLogin.LoginOnly" end time: Apr 26 16:59 PDT
+"AmazonLogin.LoginOnly" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/51 Testing: AmazonLogin.LoginLogout
+41/51 Test: AmazonLogin.LoginLogout
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonLogin.LoginLogout"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonLogin.LoginLogout" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonLogin.LoginLogout
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonLogin
+[ RUN      ] AmazonLogin.LoginLogout
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/LoginLogout/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/LoginLogout/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/LoginLogout/output.txt
+[       OK ] AmazonLogin.LoginLogout (700 ms)
+[----------] 1 test from AmazonLogin (700 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (700 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.70 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonLogin.LoginLogout" end time: Apr 26 16:59 PDT
+"AmazonLogin.LoginLogout" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/51 Testing: AmazonLogin.InvalidUsername
+42/51 Test: AmazonLogin.InvalidUsername
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonLogin.InvalidUsername"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonLogin.InvalidUsername" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonLogin.InvalidUsername
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonLogin
+[ RUN      ] AmazonLogin.InvalidUsername
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/InvalidUsername/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/InvalidUsername/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/InvalidUsername/output.txt
+[       OK ] AmazonLogin.InvalidUsername (707 ms)
+[----------] 1 test from AmazonLogin (707 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (707 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.71 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonLogin.InvalidUsername" end time: Apr 26 16:59 PDT
+"AmazonLogin.InvalidUsername" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/51 Testing: AmazonLogin.BuyWithoutLogin
+43/51 Test: AmazonLogin.BuyWithoutLogin
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonLogin.BuyWithoutLogin"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonLogin.BuyWithoutLogin" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonLogin.BuyWithoutLogin
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonLogin
+[ RUN      ] AmazonLogin.BuyWithoutLogin
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyWithoutLogin/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyWithoutLogin/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyWithoutLogin/output.txt
+[       OK ] AmazonLogin.BuyWithoutLogin (769 ms)
+[----------] 1 test from AmazonLogin (769 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (769 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.77 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonLogin.BuyWithoutLogin" end time: Apr 26 16:59 PDT
+"AmazonLogin.BuyWithoutLogin" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/51 Testing: AmazonLogin.BuyItem
+44/51 Test: AmazonLogin.BuyItem
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonLogin.BuyItem"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonLogin.BuyItem" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonLogin.BuyItem
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonLogin
+[ RUN      ] AmazonLogin.BuyItem
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyItem/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyItem/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyItem/output.txt
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyItem/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyItem/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/BuyItem/output.txt
+[       OK ] AmazonLogin.BuyItem (1554 ms)
+[----------] 1 test from AmazonLogin (1554 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1554 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   1.56 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonLogin.BuyItem" end time: Apr 26 16:59 PDT
+"AmazonLogin.BuyItem" time elapsed: 00:00:01
+----------------------------------------------------------
+
+45/51 Testing: AmazonLogin.SwitchAccountBuyItem
+45/51 Test: AmazonLogin.SwitchAccountBuyItem
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonLogin.SwitchAccountBuyItem"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonLogin.SwitchAccountBuyItem" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonLogin.SwitchAccountBuyItem
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonLogin
+[ RUN      ] AmazonLogin.SwitchAccountBuyItem
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountBuyItem/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountBuyItem/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountBuyItem/output.txt
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountBuyItem/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountBuyItem/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountBuyItem/output.txt
+[       OK ] AmazonLogin.SwitchAccountBuyItem (1535 ms)
+[----------] 1 test from AmazonLogin (1535 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1535 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   1.54 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonLogin.SwitchAccountBuyItem" end time: Apr 26 16:59 PDT
+"AmazonLogin.SwitchAccountBuyItem" time elapsed: 00:00:01
+----------------------------------------------------------
+
+46/51 Testing: AmazonLogin.SwitchAccountWithoutLogout
+46/51 Test: AmazonLogin.SwitchAccountWithoutLogout
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonLogin.SwitchAccountWithoutLogout"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonLogin.SwitchAccountWithoutLogout" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonLogin.SwitchAccountWithoutLogout
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonLogin
+[ RUN      ] AmazonLogin.SwitchAccountWithoutLogout
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountWithoutLogout/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountWithoutLogout/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountWithoutLogout/output.txt
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountWithoutLogout/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountWithoutLogout/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/SwitchAccountWithoutLogout/output.txt
+[       OK ] AmazonLogin.SwitchAccountWithoutLogout (1525 ms)
+[----------] 1 test from AmazonLogin (1525 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1526 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   1.53 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonLogin.SwitchAccountWithoutLogout" end time: Apr 26 16:59 PDT
+"AmazonLogin.SwitchAccountWithoutLogout" time elapsed: 00:00:01
+----------------------------------------------------------
+
+47/51 Testing: AmazonSorting.ByRating
+47/51 Test: AmazonSorting.ByRating
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonSorting.ByRating"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonSorting.ByRating" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonSorting.ByRating
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonSorting
+[ RUN      ] AmazonSorting.ByRating
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByRating/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByRating/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByRating/output.txt
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:71: Failure
+Value of: solutionConsole.CompareHit(studentConsole)
+  Actual: false (Mismatch between search result hits on query 1 of 1: Expected:
+[{name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}],
+ actual:
+[{name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+[  FAILED  ] AmazonSorting.ByRating (775 ms)
+[----------] 1 test from AmazonSorting (775 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (775 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AmazonSorting.ByRating
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.78 sec
+----------------------------------------------------------
+Test Failed.
+"AmazonSorting.ByRating" end time: Apr 26 16:59 PDT
+"AmazonSorting.ByRating" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/51 Testing: AmazonSorting.ByRating_NoReviews
+48/51 Test: AmazonSorting.ByRating_NoReviews
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonSorting.ByRating_NoReviews"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonSorting.ByRating_NoReviews" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonSorting.ByRating_NoReviews
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonSorting
+[ RUN      ] AmazonSorting.ByRating_NoReviews
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByRating_NoReviews/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByRating_NoReviews/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByRating_NoReviews/output.txt
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:71: Failure
+Value of: solutionConsole.CompareHit(studentConsole)
+  Actual: false (Mismatch between search result hits on query 1 of 1: Expected:
+[{name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}, {name: Ear and Nose Muffs,
+ info: Size: Large-Head Brand: Crew Cut,
+ stock: 100,
+ price: 18,
+ rating: 0
+}],
+ actual:
+[{name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}, {name: Ear and Nose Muffs,
+ info: Size: Large-Head Brand: Crew Cut,
+ stock: 100,
+ price: 18,
+ rating: 0
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+[  FAILED  ] AmazonSorting.ByRating_NoReviews (801 ms)
+[----------] 1 test from AmazonSorting (801 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (801 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AmazonSorting.ByRating_NoReviews
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.80 sec
+----------------------------------------------------------
+Test Failed.
+"AmazonSorting.ByRating_NoReviews" end time: Apr 26 16:59 PDT
+"AmazonSorting.ByRating_NoReviews" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/51 Testing: AmazonSorting.ByName
+49/51 Test: AmazonSorting.ByName
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonSorting.ByName"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonSorting.ByName" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonSorting.ByName
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonSorting
+[ RUN      ] AmazonSorting.ByName
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByName/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByName/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/ByName/output.txt
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:71: Failure
+Value of: solutionConsole.CompareHit(studentConsole)
+  Actual: false (Mismatch between search result hits on query 1 of 1: Expected:
+[{name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}, {name: Ear and Nose Muffs,
+ info: Size: Large-Head Brand: Crew Cut,
+ stock: 100,
+ price: 18,
+ rating: 0
+}, {name: Graveyard of the Pacific,
+ info: Author: Anthony Dalton ISBN: 978-192661331-4,
+ stock: 7,
+ price: 9.95,
+ rating: 0
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: Planet Earth VHS,
+ info: Genre: Documentary Rating: PG,
+ stock: 4,
+ price: 20.25,
+ rating: 0
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: foo,
+ info: Genre: Programming Rating: TV-14,
+ stock: 4,
+ price: 20.25,
+ rating: 0
+}],
+ actual:
+[{name: Planet Earth VHS,
+ info: Genre: Documentary Rating: PG,
+ stock: 4,
+ price: 20.25,
+ rating: 0
+}, {name: The Killer Rabbit of Caerbannog: A Documentary,
+ info: Genre: Disaster Rating: PG-13,
+ stock: 800000,
+ price: 0.01,
+ rating: 5
+}, {name: Men's Fitted Shirt,
+ info: Size: Medium Brand: J. Crew,
+ stock: 25,
+ price: 39.99,
+ rating: 3.5
+}, {name: foo,
+ info: Genre: Programming Rating: TV-14,
+ stock: 4,
+ price: 20.25,
+ rating: 0
+}, {name: Graveyard of the Pacific,
+ info: Author: Anthony Dalton ISBN: 978-192661331-4,
+ stock: 7,
+ price: 9.95,
+ rating: 0
+}, {name: Ear and Nose Muffs,
+ info: Size: Large-Head Brand: Crew Cut,
+ stock: 100,
+ price: 18,
+ rating: 0
+}, {name: Data Abstraction,
+ info: Author: Carrano ISBN: 978-013292372-9,
+ stock: 20,
+ price: 79.99,
+ rating: 3
+}, {name: Graveyard of the Pacific,
+ info: Author: Anthony Dalton ISBN: 978-192661331-4,
+ stock: 7,
+ price: 9.95,
+ rating: 0
+}])
+Expected: true
+Google Test trace:
+/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_checker.cpp:70: While comparing against expected output
+[  FAILED  ] AmazonSorting.ByName (789 ms)
+[----------] 1 test from AmazonSorting (789 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (789 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AmazonSorting.ByName
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.79 sec
+----------------------------------------------------------
+Test Failed.
+"AmazonSorting.ByName" end time: Apr 26 16:59 PDT
+"AmazonSorting.ByName" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/51 Testing: AmazonReviewStress.Leave10000Reviews
+50/51 Test: AmazonReviewStress.Leave10000Reviews
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviewStress.Leave10000Reviews"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviewStress.Leave10000Reviews" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviewStress.Leave10000Reviews
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviewStress
+[ RUN      ] AmazonReviewStress.Leave10000Reviews
+This test is executing your program with the following command line: 
+/home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/Leave10000Reviews/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/Leave10000Reviews/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/Leave10000Reviews/output.txt
+[       OK ] AmazonReviewStress.Leave10000Reviews (154 ms)
+[----------] 1 test from AmazonReviewStress (154 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (154 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonReviewStress.Leave10000Reviews" end time: Apr 26 16:59 PDT
+"AmazonReviewStress.Leave10000Reviews" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/51 Testing: AmazonReviewStress.View10000Reviews
+51/51 Test: AmazonReviewStress.View10000Reviews
+Command: "/home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/amazon_tests" "--gtest_filter=AmazonReviewStress.View10000Reviews"
+Directory: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests
+"AmazonReviewStress.View10000Reviews" start time: Apr 26 16:59 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AmazonReviewStress.View10000Reviews
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AmazonReviewStress
+[ RUN      ] AmazonReviewStress.View10000Reviews
+This test is executing your program with the following command line: 
+/home/cs104/hw-liu994/hw5/amazon /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/View10000Reviews/database.txt
+Your program's STDIN was piped from: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/View10000Reviews/input.txt
+Your program's STDOUT was written to: /home/cs104/hw-liu994/hw5/hw5_tests/amazon_tests/testFiles/View10000Reviews/output.txt
+[       OK ] AmazonReviewStress.View10000Reviews (305 ms)
+[----------] 1 test from AmazonReviewStress (305 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (305 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"AmazonReviewStress.View10000Reviews" end time: Apr 26 16:59 PDT
+"AmazonReviewStress.View10000Reviews" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 26 16:59 PDT

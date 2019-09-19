@@ -1,0 +1,6 @@
+Test ComparatorsTest.StandardLexicographic passed
+Test ComparatorsTest.DescendingLexicographic passed
+Test ComparatorsTest.CaseInsensitiveLexicographic passed
+Test ComparatorsTest.IgnoreLeadingWhitespace passed
+
+All Test Cases Passed

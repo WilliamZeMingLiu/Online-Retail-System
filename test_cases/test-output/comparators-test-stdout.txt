@@ -1,0 +1,69 @@
+
+------------------------------------------------------------------------------
+OUTPUT OF TEST ComparatorsTest.StandardLexicographic:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ComparatorsTest.StandardLexicographic
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ComparatorsTest
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/hw5_comparators /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/testFiles/output.txt
+[ RUN      ] ComparatorsTest.StandardLexicographic
+[       OK ] ComparatorsTest.StandardLexicographic (0 ms)
+[----------] 1 test from ComparatorsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (532 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST ComparatorsTest.DescendingLexicographic:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ComparatorsTest.DescendingLexicographic
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ComparatorsTest
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/hw5_comparators /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/testFiles/output.txt
+[ RUN      ] ComparatorsTest.DescendingLexicographic
+[       OK ] ComparatorsTest.DescendingLexicographic (0 ms)
+[----------] 1 test from ComparatorsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (526 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST ComparatorsTest.CaseInsensitiveLexicographic:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ComparatorsTest.CaseInsensitiveLexicographic
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ComparatorsTest
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/hw5_comparators /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/testFiles/output.txt
+[ RUN      ] ComparatorsTest.CaseInsensitiveLexicographic
+[       OK ] ComparatorsTest.CaseInsensitiveLexicographic (0 ms)
+[----------] 1 test from ComparatorsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (524 ms total)
+[  PASSED  ] 1 test.
+------------------------------------------------------------------------------
+OUTPUT OF TEST ComparatorsTest.IgnoreLeadingWhitespace:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ComparatorsTest.IgnoreLeadingWhitespace
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ComparatorsTest
+This test is executing your program with the following command line: 
+/usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/hw5_comparators /home/cs104/hw-liu994/hw5/hw5_tests/comparators_tests/testFiles/output.txt
+[ RUN      ] ComparatorsTest.IgnoreLeadingWhitespace
+[       OK ] ComparatorsTest.IgnoreLeadingWhitespace (0 ms)
+[----------] 1 test from ComparatorsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (531 ms total)
+[  PASSED  ] 1 test.
